@@ -28,3 +28,15 @@ nav{
     justify-content: center; /*justificar conteúdo ao centro*/
     font-weight: 400; /*negrito*/
 }
+nav a{ /*link estatico*/
+    text-decoration: none; /*tirar o sublinhado*/
+    color: var(--bg-color);
+    margin: 0 2rem 1rem 0rem; /*espaço externo cima, esquerda
+                                              baixo, direita*/
+    font-size: 1.2rem; /*tamanho da letra equivalente a 18px*/
+}
+nav a:hover{
+    text-decoration: underline;
+    transform: scale(0.90);
+    transition: transform 0.1s;
+}
