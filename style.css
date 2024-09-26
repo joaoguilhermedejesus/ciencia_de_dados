@@ -18,3 +18,8 @@ header{
     text-align: center;
     padding: 1px; /*espaço interno do header*/
 }
+h1{
+    font-size: 2rem; /*rem medida do :root*/
+    color: var(--bg-color);
+    font-weight: 700; /*weight define o negrito*/
+}
