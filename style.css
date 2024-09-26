@@ -6,3 +6,10 @@
     --secondary-color: white;
     --tipo-fonte: "Rubik", sans-serif;
 }
+body{
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    font-family: var(--tipo-fonte);
+    height: 100vh;
+    margin: 0;
+}
