@@ -23,3 +23,8 @@ h1{
     color: var(--bg-color);
     font-weight: 700; /*weight define o negrito*/
 }
+nav{
+    display: flex; /*área flexível navegável*/
+    justify-content: center; /*justificar conteúdo ao centro*/
+    font-weight: 400; /*negrito*/
+}
