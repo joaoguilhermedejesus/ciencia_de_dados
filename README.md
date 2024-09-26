@@ -1,1 +1,1 @@
-# ciencia_de_dados
+# João Guilherme de Jesus (11) & Weslley Lucas Alessi (29)
