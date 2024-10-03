@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 :root{
-    --bg-color:798645;
-    --primary-color: FEFAE0;
-    --secondary-color: F2EED7;
+    --bg-color:#798645;
+    --primary-color:#FEFAE0;
+    --secondary-color:#F2EED7;
     --tipo-fonte: "Rubik", sans-serif;
 }
 body{
