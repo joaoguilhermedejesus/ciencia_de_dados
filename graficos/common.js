@@ -18,7 +18,7 @@ Código do arquivo: quantidadeUsuarios.js
 import { getCSS, tickConfig } from "./common.js"
 
 async function quantidadeUsuariosPorRede() {
-    const url = 'https://raw.githubusercontent.com/guilhermeonrails/api/main/numero-usuarios.json&#39;
+    const url = 'https://raw.githubusercontent.com/joaoguilhermedejesus/ciencia_de_dados/refs/heads/main/base-de-dados/trabalho-tipos-de-ocupacao.json;
     const res = await fetch(url)
     const dados = await res.json()
     const nomeDasRedes = Object.keys(dados)
