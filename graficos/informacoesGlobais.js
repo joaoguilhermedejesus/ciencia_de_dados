@@ -3,8 +3,8 @@ const url = 'https://raw.githubusercontent.com/joaoguilhermedejesus/ciencia_de_d
 async function visualizarInformacoesGlobais() {
   const res = await fetch(url)
   const dados = await res.json()
-  const pessoasEmpregadas = (dados.total_pessoas_empregadas) / 1e9
-  const pessoasNoMundo = (dados.total_pessoas_mundo) / 1e9
+  const pessoasEmpregadas = (dados.total_pessoas_empregadas / 1e9)
+  const pessoasNoMundo = (dados.total_pessoas_mundo / 1e9)
   const horas = parseInt (dados.tempo_medio)
   const minutos = Math.round((dados.tempo_medio - horas) *100)
   const porcentagemDempregada = ((pessoasConectadas / pessoasNoMundo) *100).toFixed(2)
