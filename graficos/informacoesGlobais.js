@@ -13,9 +13,9 @@ async function visualizarInformacoesGlobais() {
   paragrafo.classList.add('graficos-container__texto')
   paragrafo.innerHTML = `Você sabia que o mundo tem 
   <span>${pessoasNoMundo} bilhões</span> de pessoas e que aproximadamente 
-  <span>${pessoasEmpregadas} bilhões</span> estão conectadas em alguma rede social e passam em média 
-  <span>${horas}</span> horas e <span>${minutos}</span> minutos conectadas.
-  <br> Isso significa que aproximadamente ${porcentagemDesempregada}% de pessoas estão conectadas em alguma rede social.`
+  <span>${pessoasEmpregadas} bilhões</span> estão trabalhando em algum emprego e passam em média 
+  <span>${horas}</span> horas e <span>${minutos}</span> minutos trabalhando.
+  <br> Isso significa que aproximadamente ${porcentagemDesempregada}% de pessoas estão trabalhando em algum emprego.`
   
   const containder = document.getElementById('graficos-container')
   containder.appendChild(paragrafo)
